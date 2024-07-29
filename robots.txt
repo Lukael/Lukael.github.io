@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lukael.github.io/sitemap.xml
+Sitemap: https://lukael.kr/sitemap.xml
