@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://lukael.kr/feed.xml" rel="self" type="application/atom+xml"/><link href="https://lukael.kr/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-07-29T14:33:15+00:00</updated><id>https://lukael.kr/feed.xml</id><title type="html">Jaewoo Lukael Jung</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://lukael.kr/feed.xml" rel="self" type="application/atom+xml"/><link href="https://lukael.kr/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-11-19T18:18:45+00:00</updated><id>https://lukael.kr/feed.xml</id><title type="html">Jaewoo Lukael Jung</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Vim 커스텀 설정하기</title><link href="https://lukael.kr/blog/2020/vim/" rel="alternate" type="text/html" title="Vim 커스텀 설정하기"/><published>2020-04-06T04:00:19+00:00</published><updated>2020-04-06T04:00:19+00:00</updated><id>https://lukael.kr/blog/2020/vim</id><content type="html" xml:base="https://lukael.kr/blog/2020/vim/"><![CDATA[<p>보통 라즈베리파이나 ESP32와 같이 임베디드 소프트웨어를 개발 할 때는 리눅스를 많이 이용한다. 리눅스에서 개발을 할 때, 여러가지 에디터들(vim, emacs, nano, gedit 등등)이 있지만 필자는 그 중에서 vim을 제일 많이 이용하는 편이다. 매번 vim을 켤 때마다 설정값을 입력해주기는 불편하므로 이를 파일로 만들어서 저장할 수 있다.</p> <p>먼저 vim을 설정하기 위해서는 vimrc라는 vim 설정 파일을 만들어야한다.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>vi ~/.vimrc
+</code></pre></div></div> <p>다음은 현재 필자가 쓰고 있는 vimrc 설정값들이다. 사실 컬러테마도 설정할 수는 있지만 vim을 이용하여 하드한 코딩을 하는 편은 아니라 딱히 다른 테마를 사용하고 있지는 않다. 굳이 기본 테마 중에서 고르라고 하면 delek이 그나마 무난한거 같다. (사실 이건 취향 차이다)</p> <p>좀 더 많은 옵션을 찾고 싶으면 <a href="https://github.com/johngrib/simple_vim_guide/blob/master/md/vimrc.md">링크</a>를 참고하자.</p> <p><br/></p> <h3 id="custom-set">Custom set</h3> <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set number \"set linenumber
+set autoindent \"set autoindent
+set autoread \"reload when file is changed in other programs
+set autowrite \"save when opening an other file
+\"set cindent \"autoindent in c code
+set shiftwidth=4 \"width of autoindent
+set ts=4 \"Tab size
+set showmatch \"brackek highlight
+set smartindent \"autoindent according code type
+set smarttab \"Delete tabsize when click BS
+set mouse=a \"Using mouse scroll in vim
+
+if has(\"syntax\") \"syntax highlight
+    syntax on
+endif
+
+\" Fix cursor when turn off
+au BufReadPost *
+
+colorscheme delek
+</code></pre></div></div> <p><br/></p> <p>또한 vim 설정값 뿐만 아니라 아래의 유용한 명령어들도 외워두면 편하다.</p> <h3 id="유용한-vim-명령어">유용한 vim 명령어</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:n : n번째줄 이동
+:/&lt;단어&gt; : 단어 검색
+dd : 한줄만 지우기
+yy : 한줄만 복사
+ZZ : 저장 후 종료
+ZQ : 저장하지 않고 종료
+u : 뒤로 가기(Ctrl+z)
+:norm i&lt;주석 마크&gt; : 앞에 주석 마크 추가
+:norm 1x : 앞의 한칸 제거
+</code></pre></div></div>]]></content><author><name></name></author><category term="develop"/><category term="develop"/><category term="enviroment"/><summary type="html"><![CDATA[Vim 커스텀 설정하기]]></summary></entry></feed>
