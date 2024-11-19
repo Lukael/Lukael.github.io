@@ -627,6 +627,8 @@ jsonresume:
   - education
   - publications
   - projects
+  - conferences
+  - patents
   - volunteer
   - awards
   - certificates
