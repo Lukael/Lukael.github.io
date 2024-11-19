@@ -15,4 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Welcome to my digital space! I am an engineer and researcher with a strong passion for solving challenging problems in **artificial intelligence**. As a Ph.D. candidate at **Yonsei University**, I specialize in **deep learning-based image reconstruction** and **model-based neural networks**.
+
+Currently, I am working as an **Engineer at Luxrobo**, where I apply my expertise in **electronic design automation**. With a background in hardware design, I bring a diverse skill set that bridges software, hardware, and research.
+
+Let’s connect and create something impactful!
