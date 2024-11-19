@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was at CES2024 to present [MODI Factory](https://info.modifactory.io/).
+I was at CES2024 to present [MODI Factory](https://modifactory.com/).
