@@ -1,86 +1,185 @@
 {
   "basics": {
     "name": "Jaewoo Jung",
-    "label": "AI / ML Engineer",
+    "label": "AI/ML Engineer",
     "image": "",
     "email": "dev@lukael.kr",
     "url": "https://lukael.kr/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time"
+    "summary": ""
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "institution": "Changwon Science High School",
+      "location": "Changwon, South Korea",
+      "url": "https://csh-h.gne.go.kr/csh-h/main.do",
+      "area": "Chemistry",
+      "studyType": "High School",
+      "startDate": "2013-03-01",
+      "endDate": "2015-02-01"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "institution": "Yonsei University",
+      "location": "Seoul, South Korea",
+      "url": "https://ee.yonsei.ac.kr",
+      "area": "Electrical and Electronic Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-03-01",
+      "endDate": "2020-02-01"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "institution": "Yonsei University",
+      "location": "Seoul, South Korea",
+      "url": "https://ee.yonsei.ac.kr",
+      "area": "Electrical and Electronic Engineering",
+      "studyType": "Ph.D. Candidate",
+      "startDate": "2020-03-01",
+      "endDate": "2023-08-01"
+    }
+  ],
+  "work": [
+    {
+      "name": "Imaging Intelligence Laboratory, Seoul National University",
+      "position": "Research Engineer",
+      "url": "https://imaging.snu.ac.kr/",
+      "startDate": "2025-07-01",
+      "summary": ""
+    },
+    {
+      "name": "Luxrobo Ltd.",
+      "position": "Research Engineer",
+      "url": "https://luxrobo.com/",
+      "startDate": "2023-08-01",
+      "endDate": "2025-06-01",
+      "summary": ""
+    },
+    {
+      "name": "Optical Imaging Systems Laboratory, Yonsei University",
+      "position": "Graduate Student",
+      "url": "https://imaging.snu.ac.kr/",
+      "startDate": "2020-03-01",
+      "endDate": "2023-07-01",
+      "summary": ""
+    },
+    {
+      "name": "Toky",
+      "position": "Engineer, Co-Founder",
+      "url": "",
+      "startDate": "2019-07-01",
+      "endDate": "2020-02-01",
+      "summary": ""
+    },
+    {
+      "name": "Optical Imaging Systems Laboratory, Yonsei University",
+      "position": "Internship",
+      "url": "https://imaging.snu.ac.kr/",
+      "startDate": "2019-01-01",
+      "endDate": "2020-02-01",
+      "summary": ""
+    },
+    {
+      "name": "Biological Cybernetics Laboratory, Yonsei University",
+      "position": "Internship",
+      "url": "https://cog.yonsei.ac.kr/",
+      "startDate": "2016-08-01",
+      "endDate": "2018-12-01",
+      "summary": ""
+    },
+    {
+      "name": "Luxrobo Ltd.",
+      "position": "Research Engineer",
+      "url": "https://luxrobo.com/",
+      "startDate": "2017-03-01",
+      "endDate": "2017-12-01",
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Programming Languages",
+      "level": "Expert",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "C/C++",
+        "MATLAB",
+        "Go"
       ]
+    },
+    {
+      "name": "Computer Software",
+      "level": "Expert",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "SketchUP",
+        "EasyEDA",
+        "Git"
+      ]
+    }
+  ],
+  "publications": [
+  ],
+  "awards": [
+    {
+      "title": "28th Samsung Humantech Paper Awards",
+      "date": "2022-11-01",
+      "awarder": "Samsung Electronics",
+      "summary": "Kyung Chul Lee, Nakkyu Baek, Jaewoo Jung, Junghyun Bae, Seung Ah Lee, Wook Park, Design and Fabrication of Custom Phase-Masks for UltraThin Lensless Camera"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Guitar Effect Pedal",
+      "summary": "",
+      "highlights": ["Analog Circuit", "PCB Design"],
+      "startDate": "2015-01-01",
+      "endDate": "2015-12-01"
+    },
+    {
+      "name": "Unmanned Aerial Vehicle (Quadcopter)",
+      "summary": "",
+      "highlights": ["Firmware", "PCB Design"],
+      "startDate": "2015-01-01",
+      "endDate": "2015-12-01"
+    },
+    {
+      "name": "Robot Soccer",
+      "summary": "",
+      "highlights": ["Hardware", "Swarm Control"],
+      "startDate": "2016-01-01",
+      "endDate": "2016-12-01"
+    },
+    {
+      "name": "LED Cube (8x8x8)",
+      "summary": "",
+      "highlights": ["Hardware"],
+      "startDate": "2016-01-01",
+      "endDate": "2016-12-01"
+    },
+    {
+      "name": "Humanoid Robot (KHR-1)",
+      "summary": "",
+      "highlights": ["Firmware"],
+      "startDate": "2016-01-01",
+      "endDate": "2016-12-01"
+    },
+    {
+      "name": "Localization using multiple Gyroscope",
+      "summary": "",
+      "highlights": ["Firmware", "Kinematics"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-12-01"
+    },
+    {
+      "name": "Core-XY Autonomous Chess Board",
+      "summary": "",
+      "highlights": ["Hardware", "Firmware"],
+      "startDate": "2019-01-01",
+      "endDate": "2019-12-01"
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Korean",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -92,26 +191,22 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Professional",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "NAS",
+        "DevOps",
+        "Robotics"
       ]
-    }
-  ],
-  "projects": [
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Personal",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Bass Guitar",
+        "Reading",
+        "Tea"
+      ]
     }
   ]
 }
