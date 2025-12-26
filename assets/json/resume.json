@@ -4,8 +4,19 @@
     "label": "AI/ML Engineer",
     "image": "",
     "email": "dev@lukael.kr",
-    "url": "https://lukael.kr/",
-    "summary": ""
+    "phone": "",
+    "url": "https://lukael.kr",
+    "summary": "",
+    "location": {
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "South Korea"
+    },
+    "profiles": [
+      { "network": "LinkedIn", "username": "lukael", "url": "https://www.linkedin.com/in/lukael" },
+      { "network": "GitHub", "username": "Lukael", "url": "https://github.com/Lukael" },
+      { "network": "Google Scholar", "username": "sFVeMfUAAAAJ", "url": "https://scholar.google.com/citations?user=sFVeMfUAAAAJ" }
+    ]
   },
   "education": [
     {
@@ -15,198 +26,396 @@
       "area": "Chemistry",
       "studyType": "High School",
       "startDate": "2013-03-01",
-      "endDate": "2015-02-01"
+      "endDate": "2015-02-01",
+      "courses": [],
+      "highlights": ["Early Graduated"]
     },
     {
       "institution": "Yonsei University",
       "location": "Seoul, South Korea",
       "url": "https://ee.yonsei.ac.kr",
-      "area": "Electrical and Electronic Engineering",
-      "studyType": "Bachelor of Science",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "B.S.",
       "startDate": "2015-03-01",
-      "endDate": "2020-02-01"
+      "endDate": "2020-02-01",
+      "courses": [],
+      "highlights": []
     },
     {
       "institution": "Yonsei University",
       "location": "Seoul, South Korea",
       "url": "https://ee.yonsei.ac.kr",
-      "area": "Electrical and Electronic Engineering",
+      "area": "Electrical and Electronics Engineering",
       "studyType": "Ph.D. Candidate",
       "startDate": "2020-03-01",
-      "endDate": "2023-08-01"
+      "endDate": "",
+      "courses": [],
+      "highlights": ["Advisor: Prof. Seung Ah Lee"]
     }
   ],
   "work": [
     {
-      "name": "Imaging Intelligence Laboratory, Seoul National University",
+      "name": "Seoul National University",
       "position": "Research Engineer",
-      "url": "https://imaging.snu.ac.kr/",
+      "location": "Seoul, South Korea",
+      "url": "",
       "startDate": "2025-07-01",
-      "summary": ""
+      "endDate": "",
+      "summary": "Imaging Intelligence Laboratory, supervised by Prof. Seung Ah Lee.",
+      "highlights": [
+        "Researched deep learning–based lensless image reconstruction",
+        "Oversaw GPU server operation, maintenance, and resource management"
+      ]
     },
     {
-      "name": "Luxrobo Ltd.",
+      "name": "LUXROBO Co., Ltd.",
       "position": "Research Engineer",
-      "url": "https://luxrobo.com/",
-      "startDate": "2023-08-01",
+      "location": "Seoul, South Korea",
+      "url": "https://luxrobo.com",
+      "startDate": "2023-07-01",
       "endDate": "2025-06-01",
-      "summary": ""
+      "summary": "MODI Factory.",
+      "highlights": [
+        "Designed and developed AI models for automated PCB component placement and routing",
+        "Built backend systems in Go for AI-driven EDA workflows",
+        "Deployed and validated AI model serving pipelines",
+        "Implemented LLM-based systems for intelligent electronic component categorization and recommendation",
+        "Constructed structured databases for electronic component management"
+      ]
     },
     {
-      "name": "Optical Imaging Systems Laboratory, Yonsei University",
-      "position": "Graduate Student",
-      "url": "https://imaging.snu.ac.kr/",
+      "name": "Yonsei University",
+      "position": "Graduate Research Assistant",
+      "location": "Seoul, South Korea",
+      "url": "https://ee.yonsei.ac.kr",
       "startDate": "2020-03-01",
-      "endDate": "2023-07-01",
-      "summary": ""
+      "endDate": "2023-08-01",
+      "summary": "Optical Imaging Laboratory, supervised by Prof. Seung Ah Lee.",
+      "highlights": [
+        "Researched deep learning–based lensless image reconstruction",
+        "Researched lensless holographic microscopy and image reconstruction methods",
+        "Oversaw GPU server operation, maintenance, and resource management"
+      ]
+    },
+    {
+      "name": "Yonsei University",
+      "position": "Intern",
+      "location": "Seoul, South Korea",
+      "url": "https://ee.yonsei.ac.kr",
+      "startDate": "2019-01-01",
+      "endDate": "2020-03-01",
+      "summary": "Optical Imaging Laboratory, supervised by Prof. Seung Ah Lee.",
+      "highlights": [
+        "Researched lensless holographic microscopy and image reconstruction methods",
+        "Researched human–biological interactions"
+      ]
     },
     {
       "name": "Toky",
-      "position": "Engineer, Co-Founder",
+      "position": "Co-Founder & Engineer",
+      "location": "Seoul, South Korea",
       "url": "",
       "startDate": "2019-07-01",
       "endDate": "2020-02-01",
-      "summary": ""
+      "summary": "Tabletop voice-controlled kiosk.",
+      "highlights": [
+        "Developed and optimized embedded firmware for voice recognition systems",
+        "Fine-tuned speech recognition models for on-device inference"
+      ]
     },
     {
-      "name": "Optical Imaging Systems Laboratory, Yonsei University",
-      "position": "Internship",
-      "url": "https://imaging.snu.ac.kr/",
-      "startDate": "2019-01-01",
-      "endDate": "2020-02-01",
-      "summary": ""
-    },
-    {
-      "name": "Biological Cybernetics Laboratory, Yonsei University",
-      "position": "Internship",
-      "url": "https://cog.yonsei.ac.kr/",
+      "name": "Yonsei University",
+      "position": "Intern",
+      "location": "Seoul, South Korea",
+      "url": "https://cog.yonsei.ac.kr",
       "startDate": "2016-08-01",
       "endDate": "2018-12-01",
-      "summary": ""
+      "summary": "Biological Cybernetics Laboratory, supervised by Prof. Dae Eun Kim.",
+      "highlights": [
+        "Researched swarm robotics using vibration-based locomotion robots",
+        "Designed and fabricated experimental robotic hardware",
+        "Developed ESP32-based firmware for robot control and communication (Wi-Fi, BLE)",
+        "Implemented over-the-air (OTA) update systems for robot firmware updates"
+      ]
     },
     {
-      "name": "Luxrobo Ltd.",
+      "name": "LUXROBO Co., Ltd.",
       "position": "Research Engineer",
-      "url": "https://luxrobo.com/",
+      "location": "Seoul, South Korea",
+      "url": "https://luxrobo.com",
       "startDate": "2017-03-01",
       "endDate": "2017-12-01",
-      "summary": ""
+      "summary": "Embedded Firmware Development.",
+      "highlights": [
+        "Developed ESP32-based firmware for MODI network modules",
+        "Architected Wi-Fi and BLE protocol stacks for modular devices",
+        "Designed and validated a Bluetooth 5 mesh networking prototype",
+        "Conducted RTOS performance and reliability testing using Contiki OS"
+      ]
     }
   ],
   "skills": [
     {
       "name": "Programming Languages",
-      "level": "Expert",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "MATLAB",
-        "Go"
-      ]
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C/C++", "Go", "MATLAB"]
     },
     {
-      "name": "Computer Software",
-      "level": "Expert",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "SketchUP",
-        "EasyEDA",
-        "Git"
-      ]
+      "name": "ML Frameworks",
+      "level": "",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["PyTorch"]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": ["Docker", "Git", "EasyEDA", "SketchUp"]
     }
   ],
   "publications": [
+    {
+      "name": "Rolling shutter speckle plethysmography for quantitative cardiovascular monitoring",
+      "publisher": "Biomedical Optics Express",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1364/BOE.511755",
+      "summary": "Y. Lee, S. Byun, C. Yi, J. Jung, S. A. Lee.",
+      "type": "journal"
+    },
+    {
+      "name": "High-resolution display screen as programmable illumination for Fourier ptychography",
+      "publisher": "Optics and Lasers in Engineering",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1016/j.optlaseng.2024.108121",
+      "summary": "K. Lee, K. C. Lee, J. Jung, H. Chae, S. A. Lee.",
+      "type": "journal"
+    },
+    {
+      "name": "Design and single-shot fabrication of lensless cameras with arbitrary point spread functions",
+      "publisher": "Optica",
+      "releaseDate": "2023",
+      "url": "https://doi.org/10.1364/OPTICA.466072",
+      "summary": "K. C. Lee, J. Bae, N. Baek, J. Jung, W. Park, S. A. Lee.",
+      "type": "journal"
+    },
+    {
+      "name": "Single-shot temporal speckle correlation imaging using rolling shutter image sensors",
+      "publisher": "Optica",
+      "releaseDate": "2022",
+      "url": "https://doi.org/10.1364/OPTICA.465361",
+      "summary": "C. Yi, J. Jung, J. Im, K. C. Lee, E. Chung, S. A. Lee.",
+      "type": "journal"
+    },
+    {
+      "name": "Lensless polarization camera for single-shot full-stokes imaging",
+      "publisher": "APL Photonics",
+      "releaseDate": "2022",
+      "url": "https://doi.org/10.1063/5.0120465",
+      "summary": "N. Baek, Y. Lee, T. Kim, J. Jung, S. A. Lee.",
+      "type": "journal"
+    },
+    {
+      "name": "Fabrication of integrated lensless cameras via UV-imprint lithography",
+      "publisher": "IEEE Photonics Journal",
+      "releaseDate": "2022",
+      "url": "https://doi.org/10.1109/JPHOT.2022.3157373",
+      "summary": "Y. Lee, H. Chae, K. C. Lee, N. Baek, T. Kim, J. Jung, S. A. Lee.",
+      "type": "journal"
+    },
+    {
+      "name": "A smartphone based Fourier ptychographic microscope using the display screen for illumination",
+      "publisher": "ACS Photonics",
+      "releaseDate": "2021",
+      "url": "https://doi.org/10.1021/acsphotonics.1c00350",
+      "summary": "K. C. Lee, K. Lee, J. Jung, S. H. Lee, D. Kim, S. A. Lee.",
+      "type": "journal"
+    }
   ],
   "awards": [
     {
-      "title": "28th Samsung Humantech Paper Awards",
-      "date": "2022-11-01",
-      "awarder": "Samsung Electronics",
-      "summary": "Kyung Chul Lee, Nakkyu Baek, Jaewoo Jung, Junghyun Bae, Seung Ah Lee, Wook Park, Design and Fabrication of Custom Phase-Masks for UltraThin Lensless Camera"
+      "title": "Best Poster Award",
+      "date": "2025",
+      "awarder": "Advanced Biophotonics Conference, SPIE",
+      "summary": ""
+    },
+    {
+      "title": "Best Poster Award",
+      "date": "2022",
+      "awarder": "Advanced Biophotonics Conference, Optical Society of Korea",
+      "summary": ""
+    },
+    {
+      "title": "Silver Award",
+      "date": "2022",
+      "awarder": "28th Samsung Humantech Paper Awards (Samsung Electronics)",
+      "summary": ""
+    },
+    {
+      "title": "Grant",
+      "date": "2019",
+      "awarder": "Undergraduate Research Program, KOFAC",
+      "summary": ""
+    },
+    {
+      "title": "4th Place",
+      "date": "2019",
+      "awarder": "International Student Car Competition, KTSA",
+      "summary": ""
+    },
+    {
+      "title": "2nd Place",
+      "date": "2018",
+      "awarder": "International Student Car Competition, KTSA",
+      "summary": ""
+    },
+    {
+      "title": "1st Place",
+      "date": "2013",
+      "awarder": "Embedded Software Contest, KESSIA",
+      "summary": ""
+    },
+    {
+      "title": "1st Place",
+      "date": "2013",
+      "awarder": "R&E Festival, KOSAF",
+      "summary": ""
     }
   ],
+  "certificates": [],
   "projects": [
     {
-      "name": "Guitar Effect Pedal",
+      "name": "Arxiv Monitoring Bot",
       "summary": "",
-      "highlights": ["Analog Circuit", "PCB Design"],
-      "startDate": "2015-01-01",
-      "endDate": "2015-12-01"
+      "highlights": [],
+      "url": "https://github.com/Lukael/arxiv-monitoring-bot",
+      "date": "2025"
     },
     {
-      "name": "Unmanned Aerial Vehicle (Quadcopter)",
+      "name": "Dev Environment",
       "summary": "",
-      "highlights": ["Firmware", "PCB Design"],
-      "startDate": "2015-01-01",
-      "endDate": "2015-12-01"
-    },
-    {
-      "name": "Robot Soccer",
-      "summary": "",
-      "highlights": ["Hardware", "Swarm Control"],
-      "startDate": "2016-01-01",
-      "endDate": "2016-12-01"
-    },
-    {
-      "name": "LED Cube (8x8x8)",
-      "summary": "",
-      "highlights": ["Hardware"],
-      "startDate": "2016-01-01",
-      "endDate": "2016-12-01"
-    },
-    {
-      "name": "Humanoid Robot (KHR-1)",
-      "summary": "",
-      "highlights": ["Firmware"],
-      "startDate": "2016-01-01",
-      "endDate": "2016-12-01"
-    },
-    {
-      "name": "Localization using multiple Gyroscope",
-      "summary": "",
-      "highlights": ["Firmware", "Kinematics"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-12-01"
+      "highlights": [],
+      "url": "",
+      "date": "2024"
     },
     {
       "name": "Core-XY Autonomous Chess Board",
       "summary": "",
       "highlights": ["Hardware", "Firmware"],
-      "startDate": "2019-01-01",
-      "endDate": "2019-12-01"
+      "url": "",
+      "date": "2019"
+    },
+    {
+      "name": "Various Swarm Behavior Inspired by Nature using Vibration Locomotion Robots",
+      "summary": "",
+      "highlights": ["Swarm robotics", "Vibration locomotion"],
+      "url": "",
+      "date": "2018"
+    },
+    {
+      "name": "Localization using Multiple Gyroscope",
+      "summary": "",
+      "highlights": ["Firmware", "Kinematics"],
+      "url": "",
+      "date": "2018"
+    },
+    {
+      "name": "Autonomous Driving Cart",
+      "summary": "",
+      "highlights": ["Robotics", "Control"],
+      "url": "",
+      "date": "2017"
+    },
+    {
+      "name": "Autonomous Driving Model Car",
+      "summary": "",
+      "highlights": ["Robotics", "Control"],
+      "url": "",
+      "date": "2016"
+    },
+    {
+      "name": "Humanoid Robot (KHR-1)",
+      "summary": "",
+      "highlights": ["Firmware"],
+      "url": "",
+      "date": "2016"
+    },
+    {
+      "name": "LED Cube (8×8×8)",
+      "summary": "",
+      "highlights": ["Hardware"],
+      "url": "",
+      "date": "2016"
+    },
+    {
+      "name": "Robot Soccer",
+      "summary": "",
+      "highlights": ["Hardware", "Control"],
+      "url": "",
+      "date": "2016"
+    },
+    {
+      "name": "Unmanned Aerial Vehicle (Quadcopter)",
+      "summary": "",
+      "highlights": ["Firmware"],
+      "url": "",
+      "date": "2016"
+    },
+    {
+      "name": "Guitar Effect Pedal",
+      "summary": "",
+      "highlights": [
+        "Replicated and analyzed analog circuits used in bass guitar effects",
+        "Designed and fabricated a guitar effect pedal"
+      ],
+      "url": "",
+      "date": "2016"
+    },
+    {
+      "name": "Smartphone Application for Chemistry Experiment",
+      "summary": "",
+      "highlights": [
+        "Designed electronic circuits for measurement probe development",
+        "Developed a smartphone application for measurement data acquisition"
+      ],
+      "url": "",
+      "date": "2014"
+    },
+    {
+      "name": "Minesweeper Robot using LEGO Mindstorm",
+      "summary": "",
+      "highlights": [
+        "Developed line-following robot algorithms using RobotC",
+        "Designed and integrated robotic hardware modules for payload deployment"
+      ],
+      "url": "",
+      "date": "2013"
+    },
+    {
+      "name": "Developed Filters made from ESM’s Toxic Substances Absorptive Ability",
+      "summary": "",
+      "highlights": [
+        "Developed air purifier filters leveraging ESM's toxic substance adsorption capability",
+        "Analyzed airborne pollutants using UV–Vis spectroscopy"
+      ],
+      "url": "",
+      "date": "2013"
     }
   ],
   "languages": [
-    {
-      "language": "Korean",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
+    { "language": "Korean", "fluency": "Native speaker" },
+    { "language": "English", "fluency": "Fluent" }
   ],
   "interests": [
     {
       "name": "Professional",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "NAS",
-        "DevOps",
-        "Robotics"
-      ]
+      "keywords": ["NAS", "DevOps", "Robotics"]
     },
     {
       "name": "Personal",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Bass Guitar",
-        "Reading",
-        "Tea"
-      ]
+      "keywords": ["Bass Guitar", "Reading", "Tea"]
     }
   ]
 }

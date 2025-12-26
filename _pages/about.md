@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am an AI/ML Engineer focused on building learning-based imaging and intelligent engineering systems. My work centers on lensless image reconstruction, end-to-end machine learning pipelines, and MLOps-oriented infrastructure for training, deployment, and monitoring. I also have hands-on experience in firmware development and AI-driven circuit design automation, enabling tight integration between machine learning models, hardware, and embedded systems. I am particularly interested in bridging research and practical engineering by turning experimental ideas into reliable, scalable systems across imaging, hardware, and robotics.
