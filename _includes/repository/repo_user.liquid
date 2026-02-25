@@ -20,15 +20,108 @@
 
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.username }}">
-    <img
-      class="only-light w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats-fast.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true"
-    >
-    <img
-      class="only-dark w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats-fast.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_icons=true"
-    >
+    <div class="only-light">
+      <div
+        class="my-3"
+        style="
+          display:grid;
+          grid-template-columns:repeat(2,minmax(0,1fr));
+          gap:12px;
+          max-width:960px;
+          width:150%;
+          margin:0 auto;
+          align-items:start;
+          justify-items:center;
+        "
+      >
+        <div style="grid-column:1 / span 2;width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} profile details"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{ include.username }}&theme=default"
+          >
+        </div>
+        <div style="width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} stats"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username={{ include.username }}&theme=default"
+          >
+        </div>
+        <div style="width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} productive time"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username={{ include.username }}&theme=default&utcOffset=8"
+          >
+        </div>
+        <div style="width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} top languages"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={{ include.username }}&theme=default"
+          >
+        </div>
+        <div style="width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} repos per language"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={{ include.username }}&theme=default"
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="only-dark">
+      <div
+        class="my-3"
+        style="
+          display:grid;
+          grid-template-columns:repeat(2,minmax(0,1fr));
+          gap:12px;
+          max-width:960px;
+          width:100%;
+          margin:0 auto;
+          align-items:start;
+          justify-items:center;
+        "
+      >
+        <div style="grid-column:1 / span 2;width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} profile details"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{ include.username }}&theme=gotham"
+          >
+        </div>
+        <div style="width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} stats"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username={{ include.username }}&theme=gotham"
+          >
+        </div>
+        <div style="width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} productive time"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username={{ include.username }}&theme=gotham&utcOffset=8"
+          >
+        </div>
+        <div style="width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} top languages"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={{ include.username }}&theme=gotham"
+          >
+        </div>
+        <div style="width:100%;text-align:center;">
+          <img
+            alt="{{ include.username }} repos per language"
+            style="width:100%;height:auto;object-fit:contain;"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={{ include.username }}&theme=gotham"
+          >
+        </div>
+      </div>
+    </div>
   </a>
 </div>

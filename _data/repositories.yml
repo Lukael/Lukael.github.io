@@ -4,4 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - Lukael/dev-env
+  - Lukael/arxiv-monitoring-bot
   - Lukael/CV
+  - Lukael/Slack_Lunch_Bot
